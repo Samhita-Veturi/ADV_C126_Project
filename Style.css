@@ -1,0 +1,34 @@
+body{
+    background-size: cover;
+}
+#Footer{
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: crimson;
+    font-size: 30px;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 70px;
+    box-shadow: 5px 5px 18px;
+}
+.note{
+    font-size: 20px;
+    color: lightcyan;
+}
+canvas{
+    box-shadow: 5px 5px 18px 5px;
+    border: black solid 2px;
+    margin: 10px;
+}
+hr{
+    width: 500px;
+    background-color: white;
+}
