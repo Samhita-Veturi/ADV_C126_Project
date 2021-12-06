@@ -32,3 +32,8 @@ hr{
     width: 500px;
     background-color: white;
 }
+.Button{
+    margin: 10px;
+    width: 90px;
+    height: 40px;
+}

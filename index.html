@@ -5,10 +5,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" href="DJ Icon.jpeg" type="image/png" /><title>Party Master's DJ</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js" integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="icon" href="DJ Icon.png" type="image/png"/><title>Party Master's DJ</title>
     </head>
     <body background="DJ Backdrop.jpeg">
         <h3 class="btn-primary heading">Party Master's DJ
@@ -16,9 +17,11 @@
             <div class="note">NOTE - Move your left wrist up for playing the song. 
                 <br>Move your right wrist up for changing the song.</div>
         </h3>
-        <!--<h4 class="btn btn-outline-info"></h4>-->
+        <button class="btn btn-info Button" onclick="Play();" style="float: left;margin-left: 500px;">Play</button>
+        <button class="btn btn-secondary Button" onclick="Pause();" style="float: right;margin-right: 500px;">Pause</button>
         <div id="Footer">
             By - Samhita V
         </div>
     </body>
+    <script src="Main.js"></script>
 </html>
