@@ -47,7 +47,7 @@ function draw(){
     fill("#763dfc");
     stroke("#763dfc");
     Song_Left = Shake_It_Off.isPlaying();
-    //Song_Right = ZAYN.isPlaying()
+    Song_Right = ZAYN.isPlaying()
     if(Left_Score > 0.2){
         circle(Left_X, Left_Y, 25);
         ZAYN.stop();
@@ -57,13 +57,13 @@ function draw(){
             document.getElementById("Artist").innerHTML = "Artist: One Direction";
         }
     }
-    //if(Right_Score > 0.2){
-        //circle(Right_X, Right_Y, 25);
-        //Shake_It_Off.stop();
-        //if(Song_Right == false){
-            //ZAYN.play();
-            //document.getElementById("Name").innerHTML = "Name of song: I Don't Wanna Live Forever";
-            //document.getElementById("Artist").innerHTML = "Artist: ZAYN, Taylor Swift";
-        //}
-    //}
+    if(Right_Score > 0.2){
+         circle(Right_X, Right_Y, 25);
+        Shake_It_Off.stop();
+        if(Song_Right == false){
+            ZAYN.play();
+            document.getElementById("Name").innerHTML = "Name of song: I Don't Wanna Live Forever";
+            document.getElementById("Artist").innerHTML = "Artist: ZAYN, Taylor Swift";
+        }
+    }
 }
